@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nos Services — Cabinet M Conseils</title>
-<meta name="description" content="Découvrez les quatre expertises du Cabinet M Conseils et contactez-nous directement sur WhatsApp pour le service qui vous concerne.">
+<meta name="description" content="Découvrez les cinq expertises du Cabinet M Conseils et contactez-nous directement sur WhatsApp pour le service qui vous concerne.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="index.html" class="brand">
-      <img src="images/logo.jpeg" alt="Cabinet M Conseils" onerror="this.style.display='none';">
+      <img src="images/logo.png" alt="Cabinet M Conseils" onerror="this.style.display='none';">
       <div class="brand-fallback">
         <span class="m">Cabinet <em>M</em> Conseils</span>
         <small>conseils juridiques &amp; immobilier</small>
@@ -86,12 +86,18 @@
         <span class="tab-num">04</span>
         <h4>Vente, achat et gestion de biens immobiliers</h4>
       </button>
+      <button class="service-tab reveal" style="--i:4"
+              data-target="informations"
+              data-wa-msg="Bonjour Cabinet M Conseils, je souhaite recevoir des informations juridiques utiles à ma situation.">
+        <span class="tab-num">05</span>
+        <h4>Informations juridiques</h4>
+      </button>
     </div>
 
     <!-- Détail -->
     <div class="service-detail reveal">
       <div class="service-detail-media">
-        <img class="is-active" data-panel-img="redaction"
+         <img class="is-active" data-panel-img="redaction"
              src="https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?q=80&w=1000&auto=format&fit=crop"
              srcset="https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?q=80&w=600&auto=format&fit=crop 600w,
                      https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?q=80&w=1000&auto=format&fit=crop 1000w"
@@ -111,6 +117,11 @@
              srcset="https://images.unsplash.com/photo-1735547876935-7be80eae1c88?q=80&w=600&auto=format&fit=crop 600w,
                      https://images.unsplash.com/photo-1735547876935-7be80eae1c88?q=80&w=1000&auto=format&fit=crop 1000w"
              sizes="(max-width:980px) 100vw, 45vw" alt="Remise des clés d'un bien immobilier" style="position:absolute; inset:0;">
+        <img data-panel-img="informations"
+             src="https://images.unsplash.com/photo-1666867540898-aaa1993ffabc?q=80&w=1000&auto=format&fit=crop"
+             srcset="https://images.unsplash.com/photo-1666867540898-aaa1993ffabc?q=80&w=600&auto=format&fit=crop 600w,
+                     https://images.unsplash.com/photo-1666867540898-aaa1993ffabc?q=80&w=1000&auto=format&fit=crop 1000w"
+             sizes="(max-width:980px) 100vw, 45vw" alt="Conseillère partageant une information juridique" style="position:absolute; inset:0;">
       </div>
 
       <div>
@@ -165,6 +176,19 @@
           </ul>
           <a href="#" data-wa-msg-target class="btn btn-gold">Contacter pour ce service sur WhatsApp</a>
         </div>
+
+        <div id="informations" class="service-detail-body" data-panel="informations">
+          <div class="eyebrow">Service 05</div>
+          <h3>Informations juridiques</h3>
+          <p>Le droit évolue, les textes changent, les procédures aussi. Nous assurons une veille régulière et vous partageons les informations juridiques utiles à votre situation, dans un langage clair et accessible.</p>
+          <p>Notre objectif : que vous soyez toujours informé(e) de vos droits et de vos obligations, avant même d'en avoir besoin.</p>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> Veille législative et réglementaire régulière</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> Points d'information clairs sur vos droits et démarches</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg> Réponses rapides à vos questions ponctuelles</li>
+          </ul>
+          <a href="#" data-wa-msg-target class="btn btn-gold">Contacter pour ce service sur WhatsApp</a>
+        </div>
       </div>
     </div>
   </div>
@@ -201,7 +225,7 @@
         <div class="brand-fallback">
           <span class="m">Cabinet <em>M</em> Conseils</span>
         </div>
-        <p>Rédaction d'actes, recouvrement, conseil juridique et immobilier — à vos côtés depuis plus de 13 ans, à Cotonou et partout au Bénin.</p>
+        <p>Rédaction d'actes, recouvrement, conseil, informations juridiques et immobilier — à vos côtés depuis plus de 13 ans, à Cotonou et partout au Bénin.</p>
         <div class="footer-social">
           <a href="#" data-wa aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="var(--gold-light)"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.1-1.34A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.65 0-3.2-.46-4.52-1.26l-.32-.19-3.03.8.81-2.95-.21-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg></a>
           <a href="#" data-linkedin aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="var(--gold-light)"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.44-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
@@ -225,6 +249,7 @@
           <li><a href="services.html#redaction">Rédaction de contrats</a></li>
           <li><a href="services.html#recouvrement">Recouvrement de créances</a></li>
           <li><a href="services.html#conseil">Conseil juridique</a></li>
+          <li><a href="services.html#informations">Informations juridiques</a></li>
           <li><a href="immobilier.html">Immobilier</a></li>
         </ul>
       </div>
