@@ -6,10 +6,10 @@
 
   /* ---- Coordonnées du cabinet (source unique) ---- */
   window.CABINET = {
-    whatsapp1: "2290169588181",   // +229 01 69 58 81 81
-    whatsapp1Display: "+229 01 69 58 81 81",
-    phone2: "+2290195380006",     // 0195380006
-    phone2Display: "01 95 38 00 06",
+    whatsapp1: "2290195380006",   // +229 01 69 58 81 81
+    whatsapp1Display: "+229 01 95 38 00 06",
+    phone2: "+2290169588181",     // 0195380006
+    phone2Display: "01 69 58 81 81",
     linkedin: "https://www.linkedin.com/company/cabinet-m-conseils/?viewAsMember=true",
     facebook: "https://web.facebook.com/profile.php?id=100063520689732"
   };
